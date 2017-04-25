@@ -1,0 +1,356 @@
+---
+- &1 !ruby/object:Board
+  board:
+  - - !ruby/object:Square
+      bgcolour: 40
+      piece_present: false
+      piece: 
+    - !ruby/object:Square
+      bgcolour: 46
+      piece_present: false
+      piece: 
+    - !ruby/object:Square
+      bgcolour: 40
+      piece_present: false
+      piece: 
+    - !ruby/object:Square
+      bgcolour: 46
+      piece_present: false
+      piece: 
+    - !ruby/object:Square
+      bgcolour: 40
+      piece_present: false
+      piece: 
+    - !ruby/object:Square
+      bgcolour: 46
+      piece_present: false
+      piece: 
+    - !ruby/object:Square
+      bgcolour: 40
+      piece_present: false
+      piece: 
+    - !ruby/object:Square
+      bgcolour: 46
+      piece_present: false
+      piece: 
+  - - !ruby/object:Square
+      bgcolour: 46
+      piece_present: false
+      piece: 
+    - !ruby/object:Square
+      bgcolour: 40
+      piece_present: true
+      piece: !ruby/object:Bishop
+        player: 1
+        board: *1
+        type_id: B
+    - !ruby/object:Square
+      bgcolour: 46
+      piece_present: false
+      piece: 
+    - !ruby/object:Square
+      bgcolour: 40
+      piece_present: false
+      piece: 
+    - !ruby/object:Square
+      bgcolour: 46
+      piece_present: false
+      piece: 
+    - !ruby/object:Square
+      bgcolour: 40
+      piece_present: false
+      piece: 
+    - !ruby/object:Square
+      bgcolour: 46
+      piece_present: true
+      piece: !ruby/object:Pawn
+        player: 1
+        board: *1
+        type_id: P
+        moved: true
+    - !ruby/object:Square
+      bgcolour: 40
+      piece_present: false
+      piece: 
+  - - !ruby/object:Square
+      bgcolour: 40
+      piece_present: false
+      piece: 
+    - !ruby/object:Square
+      bgcolour: 46
+      piece_present: false
+      piece: 
+    - !ruby/object:Square
+      bgcolour: 40
+      piece_present: false
+      piece: 
+    - !ruby/object:Square
+      bgcolour: 46
+      piece_present: false
+      piece: 
+    - !ruby/object:Square
+      bgcolour: 40
+      piece_present: false
+      piece: 
+    - !ruby/object:Square
+      bgcolour: 46
+      piece_present: false
+      piece: 
+    - !ruby/object:Square
+      bgcolour: 40
+      piece_present: true
+      piece: !ruby/object:Rook
+        player: 1
+        board: *1
+        type_id: R
+        moved: true
+    - !ruby/object:Square
+      bgcolour: 46
+      piece_present: false
+      piece: 
+  - - !ruby/object:Square
+      bgcolour: 46
+      piece_present: true
+      piece: !ruby/object:Queen
+        player: 1
+        board: *1
+        type_id: Q
+    - !ruby/object:Square
+      bgcolour: 40
+      piece_present: true
+      piece: !ruby/object:Knight
+        player: 1
+        board: *1
+        type_id: N
+    - !ruby/object:Square
+      bgcolour: 46
+      piece_present: false
+      piece: 
+    - !ruby/object:Square
+      bgcolour: 40
+      piece_present: false
+      piece: 
+    - !ruby/object:Square
+      bgcolour: 46
+      piece_present: true
+      piece: !ruby/object:Pawn
+        player: 2
+        board: *1
+        type_id: P
+        moved: true
+    - !ruby/object:Square
+      bgcolour: 40
+      piece_present: false
+      piece: 
+    - !ruby/object:Square
+      bgcolour: 46
+      piece_present: false
+      piece: 
+    - !ruby/object:Square
+      bgcolour: 40
+      piece_present: false
+      piece: 
+  - - !ruby/object:Square
+      bgcolour: 40
+      piece_present: false
+      piece: 
+    - !ruby/object:Square
+      bgcolour: 46
+      piece_present: true
+      piece: !ruby/object:Pawn
+        player: 1
+        board: *1
+        type_id: P
+        moved: false
+    - !ruby/object:Square
+      bgcolour: 40
+      piece_present: false
+      piece: 
+    - !ruby/object:Square
+      bgcolour: 46
+      piece_present: false
+      piece: 
+    - !ruby/object:Square
+      bgcolour: 40
+      piece_present: true
+      piece: !ruby/object:Pawn
+        player: 2
+        board: *1
+        type_id: P
+        moved: true
+    - !ruby/object:Square
+      bgcolour: 46
+      piece_present: false
+      piece: 
+    - !ruby/object:Square
+      bgcolour: 40
+      piece_present: false
+      piece: 
+    - !ruby/object:Square
+      bgcolour: 46
+      piece_present: true
+      piece: !ruby/object:King
+        player: 2
+        board: *1
+        type_id: K
+        moved: false
+  - - !ruby/object:Square
+      bgcolour: 46
+      piece_present: true
+      piece: !ruby/object:Bishop
+        player: 1
+        board: *1
+        type_id: B
+    - !ruby/object:Square
+      bgcolour: 40
+      piece_present: true
+      piece: !ruby/object:King
+        player: 1
+        board: *1
+        type_id: K
+        moved: true
+    - !ruby/object:Square
+      bgcolour: 46
+      piece_present: false
+      piece: 
+    - !ruby/object:Square
+      bgcolour: 40
+      piece_present: false
+      piece: 
+    - !ruby/object:Square
+      bgcolour: 46
+      piece_present: true
+      piece: !ruby/object:Pawn
+        player: 2
+        board: *1
+        type_id: P
+        moved: true
+    - !ruby/object:Square
+      bgcolour: 40
+      piece_present: false
+      piece: 
+    - !ruby/object:Square
+      bgcolour: 46
+      piece_present: false
+      piece: 
+    - !ruby/object:Square
+      bgcolour: 40
+      piece_present: true
+      piece: !ruby/object:Bishop
+        player: 2
+        board: *1
+        type_id: B
+  - - !ruby/object:Square
+      bgcolour: 40
+      piece_present: true
+      piece: !ruby/object:Knight
+        player: 1
+        board: *1
+        type_id: N
+    - !ruby/object:Square
+      bgcolour: 46
+      piece_present: true
+      piece: !ruby/object:Pawn
+        player: 1
+        board: *1
+        type_id: P
+        moved: false
+    - !ruby/object:Square
+      bgcolour: 40
+      piece_present: false
+      piece: 
+    - !ruby/object:Square
+      bgcolour: 46
+      piece_present: false
+      piece: 
+    - !ruby/object:Square
+      bgcolour: 40
+      piece_present: true
+      piece: !ruby/object:Pawn
+        player: 2
+        board: *1
+        type_id: P
+        moved: true
+    - !ruby/object:Square
+      bgcolour: 46
+      piece_present: false
+      piece: 
+    - !ruby/object:Square
+      bgcolour: 40
+      piece_present: false
+      piece: 
+    - !ruby/object:Square
+      bgcolour: 46
+      piece_present: true
+      piece: !ruby/object:Knight
+        player: 2
+        board: *1
+        type_id: N
+  - - !ruby/object:Square
+      bgcolour: 46
+      piece_present: true
+      piece: !ruby/object:Rook
+        player: 1
+        board: *1
+        type_id: R
+        moved: false
+    - !ruby/object:Square
+      bgcolour: 40
+      piece_present: true
+      piece: !ruby/object:Pawn
+        player: 1
+        board: *1
+        type_id: P
+        moved: false
+    - !ruby/object:Square
+      bgcolour: 46
+      piece_present: false
+      piece: 
+    - !ruby/object:Square
+      bgcolour: 40
+      piece_present: false
+      piece: 
+    - !ruby/object:Square
+      bgcolour: 46
+      piece_present: true
+      piece: !ruby/object:Pawn
+        player: 2
+        board: *1
+        type_id: P
+        moved: true
+    - !ruby/object:Square
+      bgcolour: 40
+      piece_present: false
+      piece: 
+    - !ruby/object:Square
+      bgcolour: 46
+      piece_present: false
+      piece: 
+    - !ruby/object:Square
+      bgcolour: 40
+      piece_present: true
+      piece: !ruby/object:Rook
+        player: 2
+        board: *1
+        type_id: R
+        moved: false
+  king_location:
+  - 0
+  - - 5
+    - 1
+  - - 4
+    - 7
+  two_step_pawn:
+  - 0
+  - []
+  - - 5
+    - 4
+  in_check:
+  - false
+  - - false
+    - []
+  - - false
+    - []
+  en_passant_valid: false
+  castle_valid: false
+- 2
